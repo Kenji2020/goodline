@@ -40,27 +40,22 @@ const MobileHeader = () => {
             <ul className="transition_link">
               <li className={activeNav("home")}>
                 <a href="#home" onClick={() => onClick("home")}>
-                  Home
+                  Inicio
                 </a>
               </li>
               <li className={activeNav("about")}>
                 <a href="#about" onClick={() => onClick("about")}>
-                  About
+                  Sobre mí
                 </a>
               </li>
               <li className={activeNav("portfolio")}>
                 <a href="#portfolio" onClick={() => onClick("portfolio")}>
-                  Portfolio
-                </a>
-              </li>
-              <li className={activeNav("news")}>
-                <a href="#news" onClick={() => onClick("news")}>
-                  News
+                  Proyectos
                 </a>
               </li>
               <li className={activeNav("contact")}>
                 <a href="#contact" onClick={() => onClick("contact")}>
-                  Contact
+                  Contacto
                 </a>
               </li>
             </ul>

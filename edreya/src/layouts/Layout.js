@@ -53,7 +53,7 @@ const Layout = ({ children }) => {
 
         {/* WAVE DOTS */}
         {/* SETTINGS */}
-        <Settings />
+        
         {/* /SETTINGS */}
         {/* MOBILE MENU */}
         <MobileHeader />

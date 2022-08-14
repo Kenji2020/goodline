@@ -3,9 +3,8 @@ import { context } from "../context/context";
 import AnimatedText from "./AnimatedText";
 
 const homeData = {
-  firstName: "David",
-  lastName: "Parker",
-  skills: ["Designer", "Developer", "Freelancer"],
+  firstName: "Good",
+  lastName: "Line",
 };
 
 const Home = ({ activeWithBtn }) => {
@@ -25,7 +24,7 @@ const Home = ({ activeWithBtn }) => {
           </h3>
           <div className="edrea_tm_button transition_link">
             <a href="#contact" onClick={() => changeNav("contact")}>
-              Get in Touch
+              Contáctanos
             </a>
           </div>
         </div>

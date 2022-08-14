@@ -1,14 +1,12 @@
-import { Fragment, useState } from "react";
+                                                                              import { Fragment, useState } from "react";
 import AnimatedText from "./AnimatedText";
 import AboutPopup from "./popup/AboutPopup";
 
 const aboutData = {
-  firstName: "David",
-  lastName: "Parker",
-  bithday: "01.07.1990",
-  address: "Avon str. 22, NYC, USA",
-  phn: "+77 022 155 02 02",
-  email: "example@gmail.com",
+  firstName: "Good",
+  lastName: "Line",
+  phn: "+56957005236",
+  email: "goodlinecontacto@gmail.com",
   serviceLists: [
     "Website Development",
     "Digital Experience",
@@ -80,17 +78,15 @@ const About = () => {
               </div>
               <div className="text">
                 <p>
-                  My name is <span>David Parker.</span> I am a graphic designer,
-                  and {`I'm`} very passionate and dedicated to my work. With 20
-                  years experience as a professional a graphic designer, I have
-                  acquired the skills and knowledge.
+                  Somos <span>Good Line</span>, somos una empresa de desarrollo web que
+                  se destaca por su alta calidad y bajos tiempos de entrega
                 </p>
               </div>
-              <div className="edrea_tm_button">
+              {/*<div className="edrea_tm_button">
                 <a href="#" onClick={() => setPopup(true)}>
                   Learn More
                 </a>
-              </div>
+              </div>*/}
             </div>
           </div>
         </div>

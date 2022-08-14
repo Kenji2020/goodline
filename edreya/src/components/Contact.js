@@ -20,10 +20,10 @@ const Contact = () => {
       // https://www.emailjs.com/
       emailjs
         .send(
-          "", // service id
-          "", // template id
+          "service_d8pmvg8", // service id
+          "template_abc3w0u", // template id
           mailData,
-          "" // public api
+          "41kFLTaeUJne4klBY" // public api
         )
         .then(
           (response) => {
@@ -48,7 +48,7 @@ const Contact = () => {
         <div className="edrea_tm_contact">
           <div className="edrea_tm_main_title">
             <h3>
-              Get in <span className="coloring">Touch</span>
+              Trabaja con <span className="coloring">nosotros</span>
             </h3>
           </div>
           <div className="wrapper">
@@ -56,19 +56,9 @@ const Contact = () => {
               <ul>
                 <li>
                   <div className="list_inner">
-                    <i className="icon-location" />
-                    <span>
-                      <a href="#" className="href_location">
-                        Avon str. 22, NYC, USA
-                      </a>
-                    </span>
-                  </div>
-                </li>
-                <li>
-                  <div className="list_inner">
                     <i className="icon-phone" />
                     <span>
-                      <a href="#">+77 022 155 02 02</a>
+                      <a href="#">+56 9 57005236</a>
                     </span>
                   </div>
                 </li>
@@ -76,18 +66,11 @@ const Contact = () => {
                   <div className="list_inner">
                     <i className="icon-mail-1" />
                     <span>
-                      <a href="mailto:example@gmail.com">example@gmail.com</a>
+                      <a href="mailto:example@gmail.com">goodlinecontacto@gmail.com</a>
                     </span>
                   </div>
                 </li>
-                <li>
-                  <div className="list_inner">
-                    <i className="icon-facebook-rect" />
-                    <span>
-                      <a href="https://www.facebook.com">@facebookNick</a>
-                    </span>
-                  </div>
-                </li>
+                
               </ul>
             </div>
             <div className="right">
@@ -99,7 +82,7 @@ const Contact = () => {
                 >
                   <div
                     className="returnmessage"
-                    data-success="Your message has been received, We will contact you soon."
+                    data-success="Tu mensaje fue recibido con éxito."
                   />
                   <div
                     className={error ? "empty_notice" : "returnmessage"}
@@ -107,8 +90,8 @@ const Contact = () => {
                   >
                     <span>
                       {error
-                        ? "Please Fill Required Fields"
-                        : "Your message has been received, We will contact you soon."}
+                        ? "Por favor llena los campos correctamente"
+                        : "Tu mensaje fue recibido con éxito."}
                     </span>
                   </div>
                   <div className="first">
@@ -118,7 +101,7 @@ const Contact = () => {
                           <input
                             id="name"
                             type="text"
-                            placeholder="Name"
+                            placeholder="Nombre"
                             name="name"
                             onChange={(e) => onChange(e)}
                             value={name}
@@ -133,7 +116,7 @@ const Contact = () => {
                             name="email"
                             onChange={(e) => onChange(e)}
                             value={email}
-                            placeholder="Email"
+                            placeholder="Correo electrónico"
                             autoComplete="off"
                           />
                         </div>
@@ -143,14 +126,14 @@ const Contact = () => {
                   <div className="last">
                     <textarea
                       id="message"
-                      placeholder="Message"
+                      placeholder="Mensaje"
                       name="message"
                       onChange={(e) => onChange(e)}
                       value={message}
                     />
                   </div>
                   <div className="edrea_tm_button">
-                    <input className="a" type="submit" value="Submit Message" />
+                    <input className="a" type="submit" value="Enviar mensaje" />
                   </div>
                   {/* If you want change mail address to yours, just open "modal" folder >> contact.php and go to line 4 and change detail to yours.  */}
                 </form>
