@@ -33,8 +33,7 @@ const Portfolio = () => {
                         <span>Propeidades</span>
                       </div>
                       <a
-                        className="edrea_tm_full_link popup-vimeo"
-                        href="//player.vimeo.com/video/337293658?autoplay=1"
+                        href="www.nqd.cl"
                       />
                     </div>
                   </SwiperSlide>
