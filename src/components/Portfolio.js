@@ -13,7 +13,7 @@ const Portfolio = () => {
           <div className="edrea_tm_portfolio swiper-section">
             <div className="edrea_tm_main_title">
               <h3>
-                Creative <span className="coloring">Portfolio</span>
+                Nuestros <span className="coloring">proyectos</span>
               </h3>
             </div>
             <div className="portfolio_list gallery_zoom">
@@ -30,11 +30,8 @@ const Portfolio = () => {
                       </div>
                       <div className="details">
                         <h3>NQD</h3>
-                        <span>Propeidades</span>
+                        <a href="www.nqd.cl">Link</a>
                       </div>
-                      <a
-                        href="www.nqd.cl"
-                      />
                     </div>
                   </SwiperSlide>
                   <SwiperSlide className="swiper-slide">
@@ -43,94 +40,14 @@ const Portfolio = () => {
                         <img src="img/thumbs/1-1.jpg" alt="" />
                         <div
                           className="main"
+                          
                           data-img-url="img/portfolio/2.jpg"
                         />
                       </div>
                       <div className="details">
-                        <h3>Good Present</h3>
-                        <span>Youtube</span>
+                        <h3>Portafolios publicista</h3>
+                        <a href="https://fabiolaaguila.netlify.app/">Link</a>
                       </div>
-                      <a
-                        className="edrea_tm_full_link popup-youtube"
-                        href="//www.youtube.com/embed/7e90gBu4pas?autoplay=1"
-                      />
-                    </div>
-                  </SwiperSlide>
-                  <SwiperSlide className="swiper-slide">
-                    <div className="list_inner">
-                      <div className="image">
-                        <img src="img/thumbs/1-1.jpg" alt="" />
-                        <div
-                          className="main"
-                          data-img-url="img/portfolio/3.jpg"
-                        />
-                      </div>
-                      <div className="details">
-                        <h3>Mockup Cream</h3>
-                        <span>Soundcloud</span>
-                      </div>
-                      <a
-                        className="edrea_tm_full_link soundcloude_link mfp-iframe audio"
-                        href="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/471954807&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
-                      />
-                    </div>
-                  </SwiperSlide>
-                  <SwiperSlide className="swiper-slide">
-                    <div className="list_inner">
-                      <div className="image">
-                        <img src="img/thumbs/1-1.jpg" alt="" />
-                        <div
-                          className="main"
-                          data-img-url="img/portfolio/4.jpg"
-                        />
-                      </div>
-                      <div className="details">
-                        <h3>Delicious Apple</h3>
-                        <span>Detail</span>
-                      </div>
-                      <a
-                        className="edrea_tm_full_link portfolio_popup"
-                        href="#"
-                        onClick={() => setModal(true)}
-                      />
-                    </div>
-                  </SwiperSlide>
-                  <SwiperSlide className="swiper-slide">
-                    <div className="list_inner">
-                      <div className="image">
-                        <img src="img/thumbs/1-1.jpg" alt="" />
-                        <div
-                          className="main"
-                          data-img-url="img/portfolio/5.jpg"
-                        />
-                      </div>
-                      <div className="details">
-                        <h3>Blue Lemon</h3>
-                        <span>Image</span>
-                      </div>
-                      <a
-                        className="edrea_tm_full_link zoom"
-                        href="img/portfolio/5.jpg"
-                      />
-                    </div>
-                  </SwiperSlide>
-                  <SwiperSlide className="swiper-slide">
-                    <div className="list_inner">
-                      <div className="image">
-                        <img src="img/thumbs/1-1.jpg" alt="" />
-                        <div
-                          className="main"
-                          data-img-url="img/portfolio/6.jpg"
-                        />
-                      </div>
-                      <div className="details">
-                        <h3>Sweet Cheery</h3>
-                        <span>Image</span>
-                      </div>
-                      <a
-                        className="edrea_tm_full_link zoom"
-                        href="img/portfolio/6.jpg"
-                      />
                     </div>
                   </SwiperSlide>
                 </div>
