@@ -29,8 +29,8 @@ const Portfolio = () => {
                         />
                       </div>
                       <div className="details">
-                        <h3>Sweet Fruit</h3>
-                        <span>Vimeo</span>
+                        <h3>NQD</h3>
+                        <span>Propeidades</span>
                       </div>
                       <a
                         className="edrea_tm_full_link popup-vimeo"
