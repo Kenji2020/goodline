@@ -30,7 +30,7 @@ const Portfolio = () => {
                       </div>
                       <div className="details">
                         <h3>NQD</h3>
-                        <a href="www.nqd.cl">Link</a>
+                        <a href="https://www.nqd.cl">Link</a>
                       </div>
                     </div>
                   </SwiperSlide>
