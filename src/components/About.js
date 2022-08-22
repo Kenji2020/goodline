@@ -78,9 +78,8 @@ const About = () => {
               </div>
               <div className="text">
                 <p>
-                  Somos <span>Good Line</span>, una empresa que entrega soluciones tecnológicas de punta
-                  pasando desde páginas webs, aplicaciones web, inteligencia artificial y cámaras de seguridad.
-                  Todo al alcance de tu mano.
+                  Somos <span>Good Line</span>, una empresa que se dedica a crear aplicaciones y páginas web
+                  de forma personalizada para cada cliente y con precios asequibles.
                 </p>
               </div>
               {/*<div className="edrea_tm_button">
