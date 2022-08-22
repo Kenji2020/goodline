@@ -13,7 +13,7 @@ const Portfolio = () => {
           <div className="edrea_tm_portfolio swiper-section">
             <div className="edrea_tm_main_title">
               <h3>
-                Nuestros <span className="coloring">proyectos</span>
+                Nuestros proyectos <span className="coloring">hasta ahora</span>
               </h3>
             </div>
             <div className="portfolio_list gallery_zoom">

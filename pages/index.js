@@ -5,6 +5,7 @@ import News from "../src/components/News";
 import Portfolio from "../src/components/Portfolio";
 import Layout from "../src/layouts/Layout";
 
+
 const Index = () => {
   return (
     <Layout>
@@ -22,6 +23,8 @@ const Index = () => {
       {/* /NEWS */}
       {/* CONTACT */}
       <Contact />
+      {/* CONTACT */}
+      
     </Layout>
   );
 };
