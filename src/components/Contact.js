@@ -66,7 +66,7 @@ const Contact = () => {
                   <div className="list_inner">
                     <i className="icon-mail-1" />
                     <span>
-                      <a href="mailto:example@gmail.com">goodlinecontacto@gmail.com</a>
+                    <a href="mailto:goodlinecontacto@gmail.com">goodlinecontacto@gmail.com</a>
                     </span>
                   </div>
                 </li>
