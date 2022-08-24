@@ -15,10 +15,9 @@ const Home = ({ activeWithBtn }) => {
     <div className="edrea_tm_section animated" id="home">
       <div className="section_inner">
         <div className="edrea_tm_home">
-          <h3 className="name">
-            {homeData.firstName}{" "}
-            <span className="coloring">{homeData.lastName}</span>
-          </h3>
+          <div className="image">
+                <img src="img/logo/logo.png" alt="" style={{'height':'50%', 'width':'50%'}}/>
+              </div>
           <h3 className="job">
             <AnimatedText />
           </h3>
