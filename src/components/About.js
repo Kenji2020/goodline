@@ -4,7 +4,7 @@ import AboutPopup from "./popup/AboutPopup";
 
 const aboutData = {
   firstName: "Good",
-  lastName: "Line",
+  lastName: "Web",
   phn: "+56957005236",
   email: "goodlinecontacto@gmail.com",
   serviceLists: [
@@ -63,7 +63,6 @@ const About = () => {
             <div className="left">
               <div className="image">
                 <img src="img/thumbs/1-1.jpg" alt="" />
-                <div className="main" data-img-url="img/about/1.jpg" />
               </div>
             </div>
             <div className="right">
@@ -78,7 +77,7 @@ const About = () => {
               </div>
               <div className="text">
                 <p>
-                  Somos <span>Good Line</span>, una empresa que se dedica a crear aplicaciones y páginas web
+                  Somos <span>Good Web</span>, una empresa que se dedica a crear aplicaciones y páginas web
                   de forma personalizada para cada cliente y con precios asequibles.
                 </p>
               </div>
