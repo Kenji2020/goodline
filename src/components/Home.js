@@ -4,7 +4,7 @@ import AnimatedText from "./AnimatedText";
 
 const homeData = {
   firstName: "Good",
-  lastName: "Web",
+  lastName: "Site",
 };
 
 const Home = ({ activeWithBtn }) => {

@@ -4,7 +4,7 @@ import AboutPopup from "./popup/AboutPopup";
 
 const aboutData = {
   firstName: "Good",
-  lastName: "Web",
+  lastName: "Site",
   phn: "+56957005236",
   email: "goodlinecontacto@gmail.com",
   serviceLists: [
