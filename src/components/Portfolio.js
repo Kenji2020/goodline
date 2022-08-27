@@ -35,20 +35,7 @@ const Portfolio = () => {
                     </div>
                   </SwiperSlide>
                   <SwiperSlide className="swiper-slide">
-                    <div className="list_inner">
-                      <div className="image">
-                        <img src="img/thumbs/1-1.jpg" alt="" />
-                        <div
-                          className="main"
-                          
-                          data-img-url="img/portfolio/2.jpg"
-                        />
-                      </div>
-                      <div className="details">
-                        <h3>Portafolios publicista</h3>
-                        <a href="https://fabiolaaguila.netlify.app/">Link</a>
-                      </div>
-                    </div>
+                    
                   </SwiperSlide>
                 </div>
                 <div className="edrea_tm_swiper_progress fill">
