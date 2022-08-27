@@ -34,9 +34,7 @@ const Portfolio = () => {
                       </div>
                     </div>
                   </SwiperSlide>
-                  <SwiperSlide className="swiper-slide">
-                    
-                  </SwiperSlide>
+              
                 </div>
                 <div className="edrea_tm_swiper_progress fill">
                   <div className="my_pagination_in">
